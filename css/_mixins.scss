@@ -1,0 +1,10 @@
+%list-tyle-none{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@mixin large-column-width($column-nums){
+    @media (min-width: 1200px){
+    width: 8.33% * $column-nums;
+    }
+}

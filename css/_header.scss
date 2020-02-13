@@ -1,0 +1,127 @@
+.page-header{
+    background-image: url(../img/Backheader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 615px;
+}
+.main-menu{
+    @extend %list-tyle-none;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding-top: 100px;
+    padding-left: 150px;
+    color: rgba(255, 255, 255, 1);
+    
+    
+    &__item1{
+        animation: coolAnimation1 5s  ease-in-out .001s;
+    }
+    &__item2{
+        animation: coolAnimation2 5s  ease-in-out .001s;
+    }
+    &__item3{
+        animation: coolAnimation3 5s  ease-in-out .001s;
+    }
+    @keyframes coolAnimation1{
+    0%{
+        color: rgba(255, 255, 255, .1);
+        padding-left: 600px;
+    }
+    10%{
+        color: rgba(255, 255, 255, .2);
+        }
+    20%{
+        color: rgba(255, 255, 255, .3);
+    }
+    30%{
+        color: rgba(255, 255, 255, .4);
+    }
+    40%{
+        color: rgba(255, 255, 255, .5);
+    }
+    50%{
+        color: rgba(255, 255, 255, .6);
+    }
+    60%{
+        color: rgba(255, 255, 255, .7);
+    }
+    70%{
+        color: rgba(255, 255, 255, .8);
+    }
+    80%{
+        color: rgba(255, 255, 255, .9);
+    }
+    100%{
+        color: rgba(255, 255, 255, 1);
+    }
+    }
+    @keyframes coolAnimation2{
+    0%{
+        color: rgba(255, 255, 255, .1);
+        padding-left: 700px;
+    }
+    10%{
+        color: rgba(255, 255, 255, .2);
+        }
+    20%{
+        color: rgba(255, 255, 255, .3);
+    }
+    30%{
+        color: rgba(255, 255, 255, .4);
+    }
+    40%{
+        color: rgba(255, 255, 255, .5);
+    }
+    50%{
+        color: rgba(255, 255, 255, .6);
+    }
+    60%{
+        color: rgba(255, 255, 255, .7);
+    }
+    70%{
+        color: rgba(255, 255, 255, .8);
+    }
+    80%{
+        color: rgba(255, 255, 255, .9);
+    }
+    100%{
+        color: rgba(255, 255, 255, 1);
+    }
+    }
+    @keyframes coolAnimation3{
+    0%{
+        color: rgba(255, 255, 255, .1);
+        padding-left: 800px;
+    }
+    10%{
+        color: rgba(255, 255, 255, .2);
+        }
+    20%{
+        color: rgba(255, 255, 255, .3);
+    }
+    30%{
+        color: rgba(255, 255, 255, .4);
+    }
+    40%{
+        color: rgba(255, 255, 255, .5);
+    }
+    50%{
+        color: rgba(255, 255, 255, .6);
+    }
+    60%{
+        color: rgba(255, 255, 255, .7);
+    }
+    70%{
+        color: rgba(255, 255, 255, .8);
+    }
+    80%{
+        color: rgba(255, 255, 255, .9);
+    }
+    100%{
+        color: rgba(255, 255, 255, 1);
+    }
+    }
+}
